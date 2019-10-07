@@ -20,3 +20,4 @@ sudo update-alternatives --config python
 ```
 
 #### If you want a simple command to swap versions use [this](https://github.com/librarysteve/chpy/blob/master/chpy) little bash script!
+Place it on your path for easy execution! 
