@@ -19,3 +19,4 @@ sudo update-alternatives --install /usr/bin/python python /user/bin/python3.7 2
 sudo update-alternatives --config python
 ```
 
+#### If you want a simple command to swap versions use [this](https://github.com/librarysteve/chpy/blob/master/chpy) little bash script!
