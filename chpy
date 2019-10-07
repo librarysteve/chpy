@@ -1,8 +1,9 @@
 #!/bin/bash
-who=$(whoami)
+who=$(whoami) # Get username
 
-if [[ who == 'root' ]]; then
-  update-alternatives --config python || echo "Failed! did you follow the instructions?"
+if [[ who == 'root' ]]; then # Check if usernam is root
+  update-alternatives --config python || echo "Failed! did you follow the instructions?" # If the command fails, print the error message
 else
-  echo "Woh! Hold on there friend, you need permission for that!"
+  echo "Woh! Hold on there friend, you need permission for that!" # If the user isn't root, let them know!
   echo "Try sudo chpy"
+fi
